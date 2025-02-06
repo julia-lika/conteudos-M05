@@ -11,36 +11,24 @@
 ## 3.2 Soluções semelhantes ao nosso projeto
 Atualmente, diversos hospitais e empresas estão implementando soluções automatizadas para a dispensação de medicamentos, visando aumentar a eficiência e a segurança no processo de distribuição. A seguir, apresentamos uma documentação detalhada sobre algumas dessas soluções:
 
-**1. Hospital Alemão Oswaldo Cruz (BD Rowa)**
+* **1. Hospital Alemão Oswaldo Cruz (BD Rowa)**: O Hospital Alemão Oswaldo Cruz adotou o sistema BD Rowa, um robô que utiliza inteligência artificial para auxiliar na dispensação de medicamentos. Essa tecnologia permite a automação do armazenamento e da distribuição de medicamentos, garantindo maior precisão e eficiência no processo. O sistema é capaz de gerenciar o estoque de forma otimizada, reduzindo erros humanos e melhorando a segurança do paciente.
 
-O Hospital Alemão Oswaldo Cruz adotou o sistema BD Rowa, um robô que utiliza inteligência artificial para auxiliar na dispensação de medicamentos. Essa tecnologia permite a automação do armazenamento e da distribuição de medicamentos, garantindo maior precisão e eficiência no processo. O sistema é capaz de gerenciar o estoque de forma otimizada, reduzindo erros humanos e melhorando a segurança do paciente.
+* **2. Qx-Dextron de Qx Robotics Pvt. Ltd.**: A empresa Qx Robotics Pvt. Ltd. desenvolveu o Qx-Dextron, um sistema automatizado de dispensação de medicamentos. Este sistema utiliza componentes como os trilhos drylin da igus para garantir movimentos precisos e confiáveis na distribuição dos medicamentos. A automação proporciona maior eficiência e reduz a possibilidade de erros na administração dos medicamentos aos pacientes.
 
-**2. Qx-Dextron de Qx Robotics Pvt. Ltd.**
+* **3. Swisslog Healthcare**: A Swisslog Healthcare oferece soluções integradas para a gestão de medicamentos em ambientes hospitalares. Suas soluções incluem automação de farmácias centrais, sistemas de transporte de medicamentos e softwares abrangentes para garantir um atendimento contínuo e seguro. A empresa busca otimizar cada etapa do fornecimento de medicamentos, desde a dispensação até a entrega dentro da instituição, alinhando-se às necessidades dos pacientes e da equipe clínica.
 
-A empresa Qx Robotics Pvt. Ltd. desenvolveu o Qx-Dextron, um sistema automatizado de dispensação de medicamentos. Este sistema utiliza componentes como os trilhos drylin da igus para garantir movimentos precisos e confiáveis na distribuição dos medicamentos. A automação proporciona maior eficiência e reduz a possibilidade de erros na administração dos medicamentos aos pacientes.
+* **4. Hospital Universitário Cassiano Antônio Moraes (HUCAM)**: O HUCAM implementou uma máquina que fraciona medicamentos, oferecendo maior segurança aos pacientes. Este equipamento permite a divisão precisa de doses, garantindo que os pacientes recebam a quantidade exata prescrita. Além disso, a automação do processo reduz o risco de contaminação e erros na administração dos medicamentos.
 
-**3. Swisslog Healthcare**
+* **5. Separador Automatizado de Medicamentos para Farmácias Hospitalares**: Este projeto, apoiado pela FAPESP, visa desenvolver um separador automatizado de medicamentos para uso em farmácias hospitalares. O objetivo é aumentar a eficiência na separação e distribuição de medicamentos, reduzindo o tempo de preparo e os erros associados ao processo manual. A automação proposta busca melhorar a segurança do paciente e otimizar os recursos hospitalares.
 
-A Swisslog Healthcare oferece soluções integradas para a gestão de medicamentos em ambientes hospitalares. Suas soluções incluem automação de farmácias centrais, sistemas de transporte de medicamentos e softwares abrangentes para garantir um atendimento contínuo e seguro. A empresa busca otimizar cada etapa do fornecimento de medicamentos, desde a dispensação até a entrega dentro da instituição, alinhando-se às necessidades dos pacientes e da equipe clínica.
-
-**4. Hospital Universitário Cassiano Antônio Moraes (HUCAM)**
-
-O HUCAM implementou uma máquina que fraciona medicamentos, oferecendo maior segurança aos pacientes. Este equipamento permite a divisão precisa de doses, garantindo que os pacientes recebam a quantidade exata prescrita. Além disso, a automação do processo reduz o risco de contaminação e erros na administração dos medicamentos.
-
-**5. Separador Automatizado de Medicamentos para Farmácias Hospitalares**
-
-Este projeto, apoiado pela FAPESP, visa desenvolver um separador automatizado de medicamentos para uso em farmácias hospitalares. O objetivo é aumentar a eficiência na separação e distribuição de medicamentos, reduzindo o tempo de preparo e os erros associados ao processo manual. A automação proposta busca melhorar a segurança do paciente e otimizar os recursos hospitalares.
-
-**6. Unibox – Dispensário Automático de Medicamentos e Insumos**
-
-Desenvolvido pelo Grupo UniHealth, o Unibox é um dispensário automático que controla unitariamente os produtos de acordo com a prescrição médica. O sistema oferece rastreabilidade, segurança e transparência para gestores hospitalares e pacientes, integrando-se totalmente ao software UnilogWF. Entre seus diferenciais estão a dispensação unitária, controle de temperatura, acesso por biometria e a capacidade de armazenar diversos tipos de insumos hospitalares.
+* **6. Unibox – Dispensário Automático de Medicamentos e Insumos**: Desenvolvido pelo Grupo UniHealth, o Unibox é um dispensário automático que controla unitariamente os produtos de acordo com a prescrição médica. O sistema oferece rastreabilidade, segurança e transparência para gestores hospitalares e pacientes, integrando-se totalmente ao software UnilogWF. Entre seus diferenciais estão a dispensação unitária, controle de temperatura, acesso por biometria e a capacidade de armazenar diversos tipos de insumos hospitalares.
 
 ## 3.3 Diferenças entre os sistemas existentes e a proposta do projeto X
 
 A proposta do projeto X foca na automação da separação de medicamentos para otimizar a eficiência e segurança no Hospital de Clínicas da Unicamp. O projeto busca desenvolver um sistema automatizado de separação e montagem da “Fita de Medicamentos”, integrando manipuladores robóticos, sensores inteligentes e um sistema digital de controle.
 
 #### **Principais diferenças entre o TAPI - UNICAMP e outras soluções existentes**
-| **Critério** | **Soluções Existentes** | **TAPI - UNICAMP** |
+| **Critério** | **Soluções Existentes** | **Projeto X** |
 |-------------|-----------------------|--------------------|
 | **Automação** | Variável. Alguns sistemas, como o BD Rowa, automatizam a dispensação, enquanto outros são semiautomatizados. | Foco total na automação da montagem da "Fita de Medicamentos" com robôs e sensores inteligentes. |
 | **Integração com Sistemas Hospitalares** | Algumas soluções possuem integração limitada com prontuários eletrônicos e sistemas de gestão de medicamentos. | Integração total com o sistema de gestão do hospital para buscar prescrições digitais e atualizar o estoque em tempo real. |
